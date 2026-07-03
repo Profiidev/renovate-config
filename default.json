@@ -4,11 +4,10 @@
     "config:best-practices",
     "group:allNonMajor",
     ":automergeMinor",
-    "schedule:monthly"
+    "schedule:monthly",
+    "group:allDigest"
   ],
-  "ignorePaths": [
-    "**/node_modules/**"
-  ],
+  "ignorePaths": ["**/node_modules/**"],
   "packageRules": [
     {
       "abandonmentThreshold": "5 years",
