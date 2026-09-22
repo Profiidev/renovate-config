@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:best-practices", "group:allNonMajor", ":automergeMinor", "group:allDigest"],
-  "schedule": ["* * 1 * *"],
+  "schedule": ["* 0-12 1 * *"], // first day of the month, between 00:00 and 12:00
   "ignorePaths": ["**/node_modules/**"],
   "packageRules": [
     {
@@ -19,7 +19,7 @@
   },
   "lockFileMaintenance": {
     "enabled": true,
-    "schedule": ["* * * * 1"]
+    "schedule": ["* 0-12 * * 1"] // every Monday, between 00:00 and 12:00
   },
   "digest": {
     "automerge": true
