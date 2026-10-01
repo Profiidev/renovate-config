@@ -8,6 +8,11 @@
       "abandonmentThreshold": "5 years",
       "matchPackageNames": ["dotenvy", "figment"],
       "matchDatasources": ["crate"]
+    },
+    {
+      "matchUpdateTypes": ["major"],
+      "groupName": "all major dependencies",
+      "groupSlug": "all-major"
     }
   ],
   "osvVulnerabilityAlerts": true,
