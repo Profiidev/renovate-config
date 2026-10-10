@@ -31,5 +31,8 @@
   },
   "pinDigest": {
     "automerge": true
+  },
+  "nix": {
+    "enabled": true
   }
 }
