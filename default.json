@@ -3,6 +3,7 @@
   "extends": ["config:best-practices", "group:allNonMajor", ":automergeMinor", "group:allDigest"],
   "schedule": ["* 0-12 1 * *"], // first day of the month, between 00:00 and 12:00
   "ignorePaths": ["**/node_modules/**"],
+  "gitIgnoredAuthors": ["276593624+profidev-commit-bot[bot]@users.noreply.github.com"],
   "packageRules": [
     {
       "abandonmentThreshold": "5 years",
